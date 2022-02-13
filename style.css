@@ -70,7 +70,7 @@ section .title::before {
 }
 section .title::after {
   position: absolute;
-  bottom: -8px;
+  bottom: -25px;
   left: 50%;
   font-size: 20px;
   color: #3f2799;
@@ -135,33 +135,6 @@ section .title::after {
   font-size: 23px;
   cursor: pointer;
   display: none;
-}
-.scroll-up-btn {
-  position: fixed;
-  height: 45px;
-  width: 42px;
-  background: #3f2799;
-  right: 30px;
-  bottom: 10px;
-  text-align: center;
-  line-height: 45px;
-  color: #fff;
-  z-index: 9999;
-  font-size: 30px;
-  border-radius: 6px;
-  border-bottom-width: 2px;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-.scroll-up-btn.show {
-  bottom: 30px;
-  opacity: 1;
-  pointer-events: auto;
-}
-.scroll-up-btn:hover {
-  filter: brightness(90%);
 }
 
 /* home section styling */
@@ -553,6 +526,16 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+  .SmIcons i {
+    height: 80px;
+    width: 80px;
+    background-color: #f5f6fa;
+    border-radius: 20%;
+    text-align: center;
+    margin: 30px;
+    align-items: center;
+    line-height: 90px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -568,6 +551,16 @@ footer span a:hover {
   .home .home-content a {
     font-size: 20px;
   }
+  .SmIcons i {
+    height: 70px;
+    width: 70px;
+    background-color: #f5f6fa;
+    border-radius: 20%;
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+    line-height: 80px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -581,12 +574,14 @@ footer span a:hover {
   .skills .skills-content .left .text {
     font-size: 19px;
   }
-  .scroll-up-btn {
-    right: 15px;
-    bottom: 15px;
-    height: 38px;
-    width: 35px;
-    font-size: 23px;
-    line-height: 38px;
+  .SmIcons i {
+    height: 50px;
+    width: 50px;
+    background-color: #f5f6fa;
+    border-radius: 20%;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    line-height: 60px;
   }
 }
